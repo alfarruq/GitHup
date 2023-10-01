@@ -1,6 +1,39 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
+body {
+  max-width: 1440px;
+  min-height: 100vh;
+
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+header {
+  min-height: 60px;
+  background-color: aqua;
+  padding: 20px;
+}
+#your_name,
+#your_lastname {
+  color: blue;
+}
+
+main{
+    min-height: 80vh;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+footer{
+    min-height: 60px;
+    background-color:greenyellow;
+    padding: 20px
+}
